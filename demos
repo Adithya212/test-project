@@ -8,3 +8,24 @@ curl -u aadithyasunil488@gmail.com:ATATT3xFfGF0zmZ-qvoZqD-UNIJb7xwUPTO5d-TFklRef
   -H "Accept: application/json" \
   "https://adithya488.atlassian.net/rest/api/3/project"
 http://localhost:3000/jira-tasks?project=MBA
+
+{
+  "name": "jira-fetching-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
+
